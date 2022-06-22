@@ -2,8 +2,7 @@
 export ROS_PYTHON_VERSION=3
 
 # Requirements to get libmavconn to build
-sudo apt-get install python3-empy
-sudo apt install libasio-dev
+sudo apt-get install python3 python3-pip python3-empy libasio-dev
 
 # Store the directory of the script at it's run location
 DIR_PATH=$(echo $(dirname $(readlink -e $0)))
