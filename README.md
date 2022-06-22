@@ -12,4 +12,4 @@ The script will generate a install folder in this repo which includes the debug 
 Simply run the `build.sh` script to get the shared object and headers (mavlink and mavconn).
 
 ### Note  
-If you want to use a newer version of mavlink or mavlink conn (from mavros) first update those submodules to the desired branch, then run the script to generate the files.
+If you want to use a newer version of mavconn you will need to pull into the current version the new branch, and fix any merge errors. For a new mavlink message set, you simply need to checkout the new version and run the script again.
