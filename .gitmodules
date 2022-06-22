@@ -1,3 +1,6 @@
 [submodule "mavlink-gbp-release"]
 	path = mavlink-gbp-release
 	url = https://github.com/mavlink/mavlink-gbp-release
+[submodule "mavros"]
+	path = mavros
+	url = https://github.com/mcelhennyi/mavros.git
