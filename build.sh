@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Set python version to use to 3
 export ROS_PYTHON_VERSION=3
 
