@@ -5,7 +5,7 @@ This repo combines both the mavlink-GBP repo and the mavros repo along with a ni
 - cmake version > 3.11  
 
 ## Ouput
-The script will generate a install folder in this repo which includes the debug and release folders. Inside each of the debug and release folders there is a bin and include folder. Bin includes the mavconn shared objects and the include folder includes the mavconn headers AND the paired mavlink messages generated from the GBP repo.
+The script will generate a install folder in this repo which includes the debug and release folders. Inside each of the debug and release folders there is a lib, include, and share folder. Lib includes the mavconn shared objects and the include folder includes the mavconn headers AND the paired mavlink messages generated from the GBP repo.
 
 
 ## Use
