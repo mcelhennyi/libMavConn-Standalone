@@ -6,3 +6,10 @@ This repo combines both the mavlink-GBP repo and the mavros repo along with a ni
 
 ## Ouput
 The script will generate a install folder in this repo which includes the debug and release folders. Inside each of the debug and release folders there is a bin and include folder. Bin includes the mavconn shared objects and the include folder includes the mavconn headers AND the paired mavlink messages generated from the GBP repo.
+
+
+## Use
+Simply run the `build.sh` script to get the shared object and headers (mavlink and mavconn).
+
+### Note  
+If you want to use a newer version of mavlink or mavlink conn (from mavros) first update those submodules to the desired branch, then run the script to generate the files.
