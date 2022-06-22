@@ -44,15 +44,15 @@ cd $DIR_PATH/mavros/libmavconn/
 rm -rf build_debug
 mkdir build_debug && cd build_debug && \
       cmake -D CMAKE_BUILD_TYPE=Debug \
-      -D CMAKE_INSTALL_PREFIX=./install .. \
-      -D MAVLINK_INSTALL_PATH=$DIR_PATH_INSTALL_DEBUG/ \
+      -D CMAKE_INSTALL_PREFIX=./install \
+      -D MAVLINK_INSTALL_PATH=$DIR_PATH_INSTALL_DEBUG .. \
 	 && make -j${NPROC} && make install
 cd ../
 rm -rf build_release
 mkdir build_release && cd build_release && \
       cmake -D CMAKE_BUILD_TYPE=Release \
-      -D CMAKE_INSTALL_PREFIX=./install .. \
-      -D MAVLINK_INSTALL_PATH=$DIR_PATH_INSTALL_RELEASE \
+      -D CMAKE_INSTALL_PREFIX=./install \
+      -D MAVLINK_INSTALL_PATH=$DIR_PATH_INSTALL_RELEASE .. \
 	 && make -j${NPROC} && make install
 cd ../
 
